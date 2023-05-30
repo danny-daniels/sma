@@ -1,0 +1,22 @@
+A sequence diagram in software engineering is a visual representation of the interactions between different objects or components within a system over time. It depicts the sequence of messages exchanged between objects to accomplish a particular functionality or scenario. The main components of a sequence diagram include:
+
+Objects (Lifelines):
+Objects represent the various components or instances of a system that participate in the sequence of interactions. Each object is represented by a vertical line called a lifeline. Lifelines show the lifespan or existence of an object during the sequence.
+
+Messages:
+Messages depict the communication or interaction between objects. They represent the flow of information or requests exchanged between objects to perform certain actions. Messages can be of different types, such as method calls, signals, or asynchronous messages. They are shown as arrows between lifelines, indicating the direction of communication.
+
+Activation Boxes:
+Activation boxes represent the period of time when an object is executing or processing a message. They are shown as vertical rectangles on top of the lifeline. Activation boxes indicate the duration of the object's activity during the sequence.
+
+Return Messages:
+Return messages indicate the response or result sent back by an object after executing a method call. They show the flow of information from the called object back to the calling object. Return messages are represented by arrows with a dashed line.
+
+Control Flow:
+Control flow elements, such as loops, conditions, and branches, can be included in a sequence diagram to depict the flow of control within the sequence. They help illustrate the decision-making and looping constructs within the interactions.
+
+Interaction Fragments:
+Interaction fragments represent parts of the sequence diagram that define specific behaviors or scenarios. They can include alternative flows, loops, or parallel executions. Interaction fragments are depicted as boxes around a set of messages and can be labeled with keywords like "alt" (alternative), "loop" (looping), or "par" (parallel execution).
+
+Self-Message:
+A self-message is used to represent a message sent from an object to itself. It signifies internal communication within an object.

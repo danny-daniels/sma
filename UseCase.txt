@@ -1,0 +1,24 @@
+A use case diagram in software engineering is a visual representation of the functional requirements of a system. It showcases the interactions between the system (subject under study) and external entities (actors) by defining the system's behavior in terms of use cases. The main components of a use case diagram include:
+
+Actors:
+Actors represent the external entities that interact with the system. They can be individuals, other systems, or even physical devices. Actors are depicted as stick figures in a use case diagram.
+
+Use Cases:
+Use cases represent specific functionalities or behaviors of the system from the user's perspective. Each use case describes a sequence of actions or interactions between an actor and the system to achieve a specific goal. Use cases are represented as ovals or ellipses in the diagram.
+
+Associations:
+Associations depict the relationships and interactions between actors and use cases. They illustrate which actors are involved in each use case. Associations are represented by lines connecting the actors to the use cases.
+
+System Boundary:
+The system boundary represents the scope or boundary of the system being modeled. It defines what is inside the system and what is outside of it. The system boundary is typically depicted as a rectangle or a box that encloses the actors and use cases.
+
+Generalization/Inheritance:
+Generalization or inheritance is used to represent common behaviors or characteristics shared by multiple actors or use cases. It allows for the definition of a generalized actor or use case that can be specialized by more specific actors or use cases. Generalization is denoted by an arrow with an open triangle.
+
+Include Relationship:
+The include relationship shows that one use case includes the functionality of another use case. It is used when one use case requires the functionality provided by another use case. The include relationship is represented by a dashed arrow.
+
+Extend Relationship:
+The extend relationship is used to indicate that one use case can be extended by another use case under certain conditions or scenarios. It allows for optional or alternative behavior to be added to a base use case. The extend relationship is denoted by a dashed arrow with an open arrowhead.
+
+These components work together to depict the interactions and functionalities of the system in a use case diagram, providing a high-level overview of the system's behavior from the user's perspective.
